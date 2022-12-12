@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069022086052",
+    "project_id": "ngoapp-fb630",
+    "storage_bucket": "ngoapp-fb630.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069022086052:android:7be30e1ba536879e5b3731",
+        "android_client_info": {
+          "package_name": "com.ngeo.sharim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069022086052-g62682pjogaeug0cpnbqnukc3tutcopp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoTBzen-tdu36HUmBGdngekfMAaGLSJP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069022086052-g62682pjogaeug0cpnbqnukc3tutcopp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

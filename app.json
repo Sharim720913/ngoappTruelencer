@@ -3,6 +3,7 @@
     "name": "my-app",
     "slug": "my-app",
     "version": "1.0.0",
+    "jsEngine": "hermes",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,18 +15,21 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ngeo.sharim",
+      "googleServicesFile": "GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ngeo.sharim",
+      "googleServicesFile": "./google-services.json"
     },
+    "plugins": ["@react-native-firebase/app"],
     "web": {
       "favicon": "./assets/favicon.png"
     }
